@@ -35,8 +35,8 @@ class Bird < Animal
 	end
 end
 
-byrd = Bird.new
+classify_bird = Bird.new
 
-byrd.gender = "female"
-byrd.animals
-byrd.geo = "new york"
+classify_bird.gender = "female"
+classify_bird.animals
+classify_bird.geo = "new york"
