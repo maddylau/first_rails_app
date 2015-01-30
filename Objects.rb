@@ -1,14 +1,14 @@
 class Elevator
-	attr_accessor :floor
-	attr_accessor :building
+  attr_accessor :floor
+  attr_accessor :building
 
-	def go_up(floor)
-		floor += 1
-	end
+  def go_up(floor)
+    floor += 1
+  end
 
-	def go_down(floor)
-		floor -= 1
-	end
+  def go_down(floor)
+    floor -= 1
+  end
 end
 
 elevator = Elevator.new
@@ -19,20 +19,20 @@ down_elevator = elevator.go_down(1)
 
 
 class Animal
-	attr_accessor :type
-	attr_accessor :gender
+  attr_accessor :type
+  attr_accessor :gender
 
-	def animals
-		puts "i'm an animal"
-	end
+  def animals
+    puts "i'm an animal"
+  end
 end
 
 class Bird < Animal
-	attr_accessor :breed
-	attr_accessor :geo
-	def birds
-		puts "i'm a bird"
-	end
+  attr_accessor :breed
+  attr_accessor :geo
+  def birds
+    puts "i'm a bird"
+  end
 end
 
 classify_bird = Bird.new
